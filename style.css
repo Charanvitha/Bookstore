@@ -1,0 +1,274 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e4b8a6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: hsl(350, 48%, 55%);
+    color: #f2afaf;
+    padding: 20px;
+    text-align: center;
+}
+
+.search-bar {
+    margin-top: 10px;
+}
+
+.search-bar input {
+    padding: 5px;
+    font-size: 16px;
+}
+
+.search-bar button {
+    padding: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.book-collection {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.book-item {
+    background-color: #fff;
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+    width: 200px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.book-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.book-title {
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.price {
+    color: #ff6666;
+    margin: 5px 0;
+}
+
+.mrp {
+    color: #999;
+    text-decoration: line-through;
+}
+
+.rating {
+    color: #0b0a08;
+    font-size: 14px;
+}
+
+footer {
+    background-color: hsl(349, 46%, 80%) ;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: hsl(349, 46%, 80%);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #666;
+}
+
+.bestsellers {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding: 20px 0;
+}
+
+.book {
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    flex: 0 0 auto;
+    width: 150px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.book img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ce8787;
+    margin-bottom: 10px;
+}
+
+.book h3 {
+    font-size: 14px;
+    color: #333;
+    margin: 10px 0;
+}
+
+.rating {
+    color: #ffa500;
+    margin-bottom: 10px;
+}
+
+.price {
+    color: #e53935;
+    font-weight: bold;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: #999;
+    font-weight: normal;
+    margin-left: 5px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+}
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4 {
+    margin: 0;
+}
+
+/* Top Banner */
+.top-bar {
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: #ffba00;
+}
+
+.shipping-banner {
+    display: inline-block;
+}
+
+/* Partner Section */
+.partner-section {
+    background-color: hsl(0, 10%, 88%);
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+.subscribe input {
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 300px;
+}
+
+.social-media {
+    margin-top: 10px;
+}
+
+.social-icon {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+/* Information Section */
+.info-section {
+    background-color: #e4b8a6;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.about {
+    max-width: 30%;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    margin-left: 20px;
+}
+
+.links div {
+    margin-right: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info {
+    margin-top: 10px;
+}
+
+h4 {
+    margin-bottom: 10px;
+}
+
+/* Footer */
+.footer {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
