@@ -1,1 +1,2 @@
 # Bookstore
+Book Treasures is a front-end web project that showcases a stylish and user-friendly online bookstore interface. Built using HTML, CSS. It features various book categories like bestsellers, fiction, new arrivals, and more. The layout includes a navigation bar, search functionality, book cards with pricing and ratings, and an attractive responsive design. This project demonstrates how a clean and visually appealing bookstore website can be created without any backend, ideal for front-end development practice or portfolio showcasin
